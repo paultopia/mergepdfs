@@ -22,4 +22,4 @@ You get to specify the filename of the generated file. That's about it.
 
 ## License
 
-All the code here is trivial, and some of it is straight cookbook code, so I'm not claiming any kind of copyright at all. Any bits that I could claim copyright in are hereby committed to the public domain.
+All the code here is trivial, and some of it is straight cookbook code, so I'm not claiming any kind of copyright at all. Any bits that I could claim copyright in are hereby committed to the public domain. Ignore any cruft floating around in the files leiningen created to the contrary.
