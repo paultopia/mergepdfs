@@ -1,36 +1,25 @@
 # mergepdf
 
-FIXME: description
+Simple personal commandline utility to merge all pdfs in a directory. Only tested on OSX, built using lein-bin. Built because I often find myself with a directory full of PDFs (chapters of bigger writing project, anonymized student work that needs to be compiled and shared, etc.) that need to be merged and it's an annoying hassle to do it with big icky GUI apps or web services.
 
 ## Installation
 
-Download from http://example.com/FIXME.
+Download the binary merge-pdfs either in the root directory here or from the releases page.  Stick it on your path. Make it executable. 
+
+(or use one of the JAR files, or build it yourself, or whev.)
 
 ## Usage
 
-FIXME: explanation
+    $ merge-pdfs outfile.pdf
 
-    $ java -jar mergepdf-0.1.0-standalone.jar [args]
+will take every PDF in the directory you run it from and merge them into a file called output.pdf
+
+it's basically alphabetical order, I think it goes in the order that directory listings show up in.
 
 ## Options
 
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+You get to specify the filename of the generated file. That's about it.
 
 ## License
 
-Copyright © 2016 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+All the code here is trivial, and some of it is straight cookbook code, so I'm not claiming any kind of copyright at all. Any bits that I could claim copyright in are hereby committed to the public domain.
