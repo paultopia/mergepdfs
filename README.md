@@ -4,7 +4,7 @@ Simple personal commandline utility to merge all pdfs in a directory. Only teste
 
 ## Installation
 
-Download the binary merge-pdfs either in the root directory here or from the releases page.  Stick it on your path. Make it executable. 
+Download the binary `merge-pdfs` either in the `binary` directory here or from the releases page.  Stick it on your path. Make it executable. 
 
 (or use one of the JAR files, or build it yourself, or whev.)
 
