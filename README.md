@@ -1,5 +1,7 @@
 # mergepdf
 
+**DEPRECATED** --- it seems to get the alphabetical order wrong. For Mac users, you might try a rewrite in Swift [in this repo](https://github.com/paultopia/pdfmerge).
+
 Simple personal commandline utility to merge all pdfs in a directory. Only tested on OSX, built using lein-bin. Built because I often find myself with a directory full of PDFs (chapters of bigger writing project, anonymized student work that needs to be compiled and shared, etc.) that need to be merged and it's an annoying hassle to do it with big icky GUI apps or web services.
 
 ## Installation
